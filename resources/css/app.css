@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import './interstate.css';
+
+@source '../views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+@theme {
+    --font-interstate: 'Interstate', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-primary: #255BE3;
+    --color-secondary: #FF3C28;
+    --color-input: #056DAE;
+    --color-button-focus: #034C81;
+    --color-ring: #002A54;
+    --color-link: #04208F;
+
+    --breakpoint-2xl: 360rem;
+}
